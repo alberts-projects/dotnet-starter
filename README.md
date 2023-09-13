@@ -37,4 +37,5 @@ add a gitignore file
 
 # creation log and notes
 
-dotnet comes with swagger built in.
+dotnet comes with swagger built in. (so cool)
+uses axios instead of fetch to manage requests
