@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Videos from './components/videos';
-
+import FunctionalComponent from './components/exampleCounter';
 
 // shadui imports
 import {
@@ -79,6 +79,7 @@ function App() {
       </Container>
 
       <CardExample />
+      <FunctionalComponent />
     </>
 
     

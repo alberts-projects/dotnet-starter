@@ -12,7 +12,11 @@ starter app to test out some new dotnet features
 
 
 # useful commands and running locally
-navigate to the folder and run the following command:
+for the frontend, navigate to the frontend folder and run:
+```
+npm run dev
+```
+for the backend, in a separate cli navigate to the VideosAPI folder and run the following command:
 ```
 dotnet run
 ```
