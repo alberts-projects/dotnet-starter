@@ -20,6 +20,7 @@ import Button from 'react-bootstrap/Button';
 
 // css
 import './App.css'
+import CardExample from './components/bootstrapLoadingDemo';
 
 
 const ExampleToast = ({ children }) => {
@@ -76,7 +77,8 @@ function App() {
           </ExampleToast>
         </Container>
       </Container>
-      
+
+      <CardExample />
     </>
 
     

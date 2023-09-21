@@ -14,8 +14,8 @@ public class VideosController : ControllerBase {
     [HttpGet("videos_list")]
     public IEnumerable<Video> GetVidoes() {
         return new List<Video>{
-            new Video{Id=1, Name="test1"},
-            new Video{Id=1, Name="test2"}
+            new Video{Id=1, Name="test1", Description="hi im a description for test 1"},
+            new Video{Id=1, Name="test2", Description="test2, description i am."},
         };
     }
 }
