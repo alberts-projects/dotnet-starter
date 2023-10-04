@@ -21,6 +21,14 @@ import Button from 'react-bootstrap/Button';
 // css
 import './App.css'
 import CardExample from './components/bootstrapLoadingDemo';
+import WeatherDemo from './components/weatherDemo';
+import ItemList from './components/itemList';
+
+const items = [
+  { name: 'Item 1' },
+  { name: 'Item 2' },
+  { name: 'Item 3' },
+];
 
 
 const ExampleToast = ({ children }) => {
@@ -80,6 +88,13 @@ function App() {
 
       <CardExample />
       <FunctionalComponent />
+      <WeatherDemo exampleProp="hi, i am an example of a prop"/>
+      <div>
+        <h1>List of Items</h1>
+        <ItemList items={items} />
+      </div>
+
+
     </>
 
     
